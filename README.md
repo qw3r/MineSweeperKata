@@ -1,8 +1,3 @@
-MineFieldKata
-=============
-
-Kata for the dojo at 2014.06.02.
-
 Getting started...
 ==================
 
@@ -21,7 +16,7 @@ git fetch
 git push
 ```
 
-## The Basic
+## MineFieldKata
 A field of N x M squares is represented by N lines of exactly M characters each. The character '*' represents a mine and the character '.' represents no-mine.
 
 ###Example input 1
@@ -88,6 +83,7 @@ If the user choose a 0-field, the program has to reveal all of the adjacent 0-fi
 
 ## The game process
 The program has to be able to handle the process of a whole game:
+
 1. The user can choose fields until all of the fields without a mine are revealed
 2. If all numbered fields are revealed it has to end with a message: `You just survived the nightmare! :(`
 3. If the user chose a mine-field then the game is over and he cannot choose another field.
