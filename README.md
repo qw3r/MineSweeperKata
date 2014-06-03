@@ -1,21 +1,3 @@
-Getting started...
-==================
-
-```
-git clone https://github.com/BpCodingDojo/MineFieldKata.git
-```
-
-### ...and finished
-
-At the end of the session, please commit your work to the directory of your team.
-
-```
-git add .
-git commit -a -m "Fokakrem"
-git fetch
-git push
-```
-
 ## MineFieldKata
 A field of N x M squares is represented by N lines of exactly M characters each. The character '*' represents a mine and the character '.' represents no-mine.
 
